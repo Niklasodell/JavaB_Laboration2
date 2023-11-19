@@ -100,9 +100,9 @@ public class Monster implements ICombat {
 
     public static Monster[] generateMonsterList() {
         return new Monster[]{
-                new Monster("Goblin", 30, 10, 20, 5),
-                new Monster("Ork", 50, 15, 15, 10),
-                new Monster("Drake", 100, 30, 10, 50)
+                new Monster("Goblin", 30, 4, 20, 5),
+                new Monster("Ork", 50, 7, 15, 10),
+                new Monster("Drake", 100, 10, 10, 50)
         };
     }
 }
