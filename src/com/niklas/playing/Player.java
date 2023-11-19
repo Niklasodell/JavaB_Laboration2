@@ -61,7 +61,6 @@ public class Player implements ICombat{
         }
     }
 
-    // Ändring i Player-klassen
     public void performAction() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Välj handling:");
@@ -110,7 +109,7 @@ public class Player implements ICombat{
         System.out.println("Guld: " + gold);
     }
 
-    private int calculateDamage() {
+    protected int calculateDamage() {
         return baseDamage + (strength * 2 / 4 + 1);
     }
 

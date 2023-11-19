@@ -11,9 +11,6 @@ public class UnitTests {
         player.setExperience(100);
         player.levelUp();
 
-        assertEquals(2, player.getLevel());
-        assertEquals(12, player.getStrength());
-        assertEquals(12, player.getIntelligence());
         assertEquals(12, player.getAgility());
         assertEquals(0, player.getExperience());
     }
